@@ -1,0 +1,252 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "angularjs/angular.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "underscore/underscore.d.ts": {
+      "commit": "9b94d577a8d15f2a56701a0df46b447a7535baf6"
+    },
+    "ionic/ionic.d.ts": {
+      "commit": "9b94d577a8d15f2a56701a0df46b447a7535baf6"
+    },
+    "googlemaps/google.maps.d.ts": {
+      "commit": "9b94d577a8d15f2a56701a0df46b447a7535baf6"
+    },
+    "geojson/geojson.d.ts": {
+      "commit": "57ec5fbb76060329c10959d449eb1d4e70b15a65"
+    },
+    "angular-agility/angular-agility.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-bootstrap-calendar/angular-bootstrap-calendar.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-bootstrap-lightbox/angular-bootstrap-lightbox.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "moment/moment-node.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-breadcrumb/angular-breadcrumb.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-ui-router/angular-ui-router.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-deferred-bootstrap/angular-deferred-bootstrap.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-dialog-service/angular-dialog-service.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-cookie/angular-cookie.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-ui-bootstrap/angular-ui-bootstrap.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-environment/angular-environment.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-dynamic-locale/angular-dynamic-locale.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-file-upload/angular-file-upload.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-es/angular-es.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-fullscreen/angular-fullscreen.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "ng-file-upload/ng-file-upload.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-google-analytics/angular-google-analytics-service.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-gettext/angular-gettext.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-hotkeys/angular-hotkeys.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-growl-v2/angular-growl-v2.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-loading-bar/angular-loading-bar.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-load/angular-load.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-localForage/angular-localForage.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-idle/angular-idle.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-httpi/angular-httpi.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-jwt/angular-jwt.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-material/angular-material.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-locker/angular-locker.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "localForage/localForage.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "meteor/meteor.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-meteor/angular-meteor.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-modal/angular-modal.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-notifications/angular-notifications.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-permission/angular-permission.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-local-storage/angular-local-storage.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-formly/angular-formly.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-odata-resources/angular-odata-resources.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-scenario/angular-scenario.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-q-spread/angular-q-spread.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-scroll/angular-scroll.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-signalr-hub/angular-signalr-hub.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-spinner/angular-spinner.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "signalr/signalr.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-strap/angular-strap.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-storage/angular-storage.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-toastr/angular-toastr.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-touchspin/angular-touchspin.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-ui-scroll/angular-ui-scroll.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-toasty/angular-toasty.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-protractor/angular-protractor.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-ui-tree/angular-ui-tree.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-translate/angular-translate.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-ui-sortable/angular-ui-sortable.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-http-auth/angular-http-auth.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular.throttle/angular.throttle.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-wizard/angular-wizard.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angularfire/angularfire.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-websocket/angular-websocket.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-xeditable/angular-xeditable.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "selenium-webdriver/selenium-webdriver.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-notify/angular-notify.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angularjs-toaster/angularjs-toaster.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "firebase/firebase.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angularLocalStorage/angularLocalStorage.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "moment/moment.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angularjs/legacy/angular-scenario-1.2.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angularjs/angular-mocks.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angular-google-analytics/angular-google-analytics.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angulartics/angulartics.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angularjs/angular-component-router.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angularjs/angular-resource.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angularjs/angular-animate.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angularjs/angular-route.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angularjs/angular-sanitize.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    },
+    "angularjs/angular-cookies.d.ts": {
+      "commit": "324169800cb792855a96272f5d58f646e7b1d56d"
+    }
+  }
+}

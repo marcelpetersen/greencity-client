@@ -1,0 +1,59 @@
+<ion-view cache-view="false" class="show-tracking-route">
+    <ion-nav-bar class="bar bar-balanced">
+
+        <ion-nav-back-button class="button-clear">
+            <i class="ion-ios-arrow-back"></i> Zurück
+        </ion-nav-back-button>
+    </ion-nav-bar>
+
+    <ion-tabs class="tabs-stable tabs-show-route">
+
+        <ion-tab title="Karte">
+            <ion-item id="tracking-map" style="width:100%; height: {{vm.height}}px; margin-top: 45px;"></ion-item>
+        </ion-tab>
+        <ion-tab title="Strecke">
+            <ion-content style="max-height: {{vm.height}}px">
+                <ion-item ng-repeat="step in vm.direction.legs[0].steps" ng-bind-html="step.instructions"></ion-item>
+            </ion-content>
+        </ion-tab>
+    </ion-tabs>
+
+    <ion-content class="route-infos" style="max-height: 275px">
+        <ion-list>
+            <ion-item class="item-icon-left">
+                <i class="icon ion-android-time"></i> Dauer
+                <span class="item-note">00:00:00</span>
+            </ion-item>
+            <ion-item class="item-icon-left">
+                <i class="icon ion-map"></i> Strecke
+                <span class="item-note">0 km</span>
+            </ion-item>
+            <ion-item class="item-icon-left">
+                <i class="icon ion-pizza"></i> Kalorien
+                <span class="item-note">5 kcal</span>
+            </ion-item>
+            <ion-item class="item-icon-left">
+                <i class="icon ion-social-bitcoin"></i> Gespartes Geld
+                <span class="item-note">0,1 Bitcoin</span>
+            </ion-item>
+            <ion-item class="item-icon-left">
+                <i class="icon ion-leaf"></i> Gespartes CO2
+                <span class="item-note">100 g</span>
+            </ion-item>
+        </ion-list>
+
+
+
+    </ion-content>
+
+    <div class="action-camera-button ">
+        <div class="action-button-container">
+            <button class="button ion-navigate button-icon button-large action-camera-button button-outline button-positive" style="width:100%; "
+                ng-click="vm.pressActionButton() "></button>
+        </div>
+    </div>
+
+
+
+
+</ion-view>

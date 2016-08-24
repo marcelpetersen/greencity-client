@@ -1,0 +1,112 @@
+<ion-view cache-view="false">
+    <ion-nav-bar class="bar bar-balanced">
+
+        <ion-nav-buttons side="left">
+            <a class="button button-clear button-light" ui-sref="app.feed">
+                <i class="icon ion-ios-arrow-back"></i> Zurück
+            </a>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+
+    <ion-tabs class="tabs-stable ">
+
+        <ion-tab title="Tracking" ng-controller="TrackingActionCtrl">
+            <ion-content class="has-header" style="45px">
+
+                <ion-list>
+
+                    <label class="item item-input">
+                         <span class="input-label">Start</span>
+                         <input type="text" g-places-autocomplete ng-model="vm.direction.start">
+                    </label>
+                    <label class="item item-input">
+                         <span class="input-label">Ziel</span>
+                         <input type="text" g-places-autocomplete  ng-model="vm.direction.goal">
+                    </label>
+                    <label class="item item-input item-select item-light">
+                         <span class="input-label">Abfahrt</span>
+                         <input type="text" g-places-autocomplete  ng-model="vm.direction.goal">
+                    </label>
+                    <label class="item item-input">
+                         <span class="input-label">Zeit</span>
+                         <input type="text" ng-model="vm.direction.goal">
+                    </label>
+
+                    <label class="item item-input item-select item-light">
+                        <div class = "input-label">Mittel</div>
+                        <select ng-options="option.name for option in vm.direction.movingOptions track by option.id"
+                                ng-model="vm.direction.moving" ></select>                                
+                    </label>
+                    <ion-item class="item-divider">Letzte Ziele</ion-item>
+                    ....
+
+
+                </ion-list>
+
+
+
+
+            </ion-content>
+            <div class="bar bar-footer">
+                <div class="action-camera-button ">
+                    <div class="action-button-container">
+                        <button class="button {{vm.direction.moving.icon}} button-icon button-large action-camera-button button-outline button-{{vm.direction.moving.color}}"
+                             style="width:100%; font-size: 50px; " ng-click="vm.searchDirection() "></button>
+                    </div>
+                </div>
+            </div>
+
+        </ion-tab>
+
+        <ion-tab title="Melden" selected>
+
+            <div class="pane-inhalt">
+                <div id="picture">
+                    <img src="" id="originalPicture">
+                </div>
+
+                <div class="bar bar-header bar-stable action-camera-bar">
+                    <a class="button button-icon icon ion-android-sync"></a>
+                    <h1 class="title">{{vm.actionText}}</h1>
+                    <a class="button button-icon icon ion-settings"></a>
+                </div>
+
+                <ion-slide-box on-slide-changed="slideHasChanged($index)" class="action-category-slider" ng-if="vm.showCategories">
+                    <ion-slide ng-repeat="(key, category) in vm.categories" ng-if="$index % 3 == 0">
+
+                        <div class="category-item-content col col-33" ng-init="bg_img = vm.categories[$index].image">
+                            <div multi-bg="[bg_img]" interval="3000" helper-class="category-with-image">
+                                <h1 class="category-title">{{vm.categories[$index].name}}</h1>
+                            </div>
+                        </div>
+                        <div class="category-item-content  col col-33" ng-if="vm.categories.length > $index + 2" ng-init="bg_img = vm.categories[$index + 1].image">
+                            <div multi-bg="[bg_img]" interval="3000" helper-class="category-with-image">
+                                <h1 class="category-title">{{vm.categories[$index + 1].name}}</h1>
+                            </div>
+                        </div>
+                        <div class="category-item-content  col col-33" ng-if="vm.categories.length > $index + 3" ng-init="bg_img = vm.categories[$index + 2].image">
+                            <div multi-bg="[bg_img]" interval="3000" helper-class="category-with-image">
+                                <h1 class="category-title">{{vm.categories[$index + 2].name}}</h1>
+                            </div>
+                        </div>
+
+                    </ion-slide>
+                </ion-slide-box>
+                <div class="action-camera-button ">
+                    <div class="action-button-container">
+                        <button class="button ion-camera button-icon button-large action-camera-button " ng-if="vm.showTakePicture
+                        " style="width:100%; font-size: 50px; " ng-click="vm.takePhoto() "></button>
+                    </div>
+                </div>
+
+            </div>
+        </ion-tab>
+
+        <ion-tab title="Zeit ">
+            <h1>Zeit </h1>
+        </ion-tab>
+
+
+    </ion-tabs>
+
+</ion-view>
